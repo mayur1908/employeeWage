@@ -69,3 +69,8 @@ echo "UC 2 - Part Time Employee & Wage Calculation"
 workHours=$PART_TIME_HOUR
 wage=$( calculateDailyWage $workHours )
 echo "Daily Wage: $wage"
+#UC 3
+echo "UC 3 - Solving using Switch Case Statement"
+workHours=$( getWorkHours $(( RANDOM%3 )) )
+wage=$( calculateDailyWage $workHours )
+echo "Daily Wage: $wage"

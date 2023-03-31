@@ -77,3 +77,15 @@ echo "Daily Wage: $wage"
 #UC 4
 echo "UC 4 - Monthly Employee Wage Calculation"
 calculateMonthlyWage
+#UC 5
+echo "UC 5 - Employee Wage Calculation till Condition is Reached"
+calculateWagesTillCondition 20
+
+#UC 6
+echo "UC 6 - Refactoring using Function to get Work Hours"
+calculateMonthlyWage   use this code and write write a next code UC 7Refactor the Code
+to write a function
+to get work hours
+ UC 8 Store the Daily
+Wage along with
+the Total Wage

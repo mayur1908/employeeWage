@@ -83,4 +83,15 @@ calculateWagesTillCondition 20
 
 #UC 6
 echo "UC 6 - Refactoring using Function to get Work Hours"
-calculateMonthlyWage 
+calculateMonthlyWage
+#UC 8
+echo "UC 8 - Store the Daily Wage along with the Total Wage"
+echo "Total Wage: $totalWage"
+echo "Daily Wage: ${dailyWageDictionary[@]}"
+
+#UC 9
+echo "UC 9 - Store the Day and the Daily Wage along with the Total Wage"
+for key in "${!dailyWageDictionary[@]}";
+do
+    echo "$key: ${dailyWageDictionary[$key]}"
+done

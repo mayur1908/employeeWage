@@ -64,3 +64,8 @@ echo "UC 1 - Daily Employee Wage Calculation"
 workHours=$( getWorkHours $(( RANDOM%3 )) )
 wage=$( calculateDailyWage $workHours )
 echo "Daily Wage: $wage"
+#UC 2
+echo "UC 2 - Part Time Employee & Wage Calculation"
+workHours=$PART_TIME_HOUR
+wage=$( calculateDailyWage $workHours )
+echo "Daily Wage: $wage"

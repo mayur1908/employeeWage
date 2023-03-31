@@ -57,3 +57,10 @@ done
 echo "Total Wage till $condition days or $MAX_WORKING_HOURS hours: $totalWage"
 echo "Daily Wage: ${dailyWageDictionary[@]}"
 }
+
+
+#UC 1
+echo "UC 1 - Daily Employee Wage Calculation"
+workHours=$( getWorkHours $(( RANDOM%3 )) )
+wage=$( calculateDailyWage $workHours )
+echo "Daily Wage: $wage"

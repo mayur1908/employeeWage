@@ -74,3 +74,6 @@ echo "UC 3 - Solving using Switch Case Statement"
 workHours=$( getWorkHours $(( RANDOM%3 )) )
 wage=$( calculateDailyWage $workHours )
 echo "Daily Wage: $wage"
+#UC 4
+echo "UC 4 - Monthly Employee Wage Calculation"
+calculateMonthlyWage
